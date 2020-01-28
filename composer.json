@@ -1,0 +1,32 @@
+{
+    "name": "codehub/privilege",
+    "description": "A package provides one role with multiple permissions for laravel applications",
+    "type": "library",
+    "keywords": ["privilege", "grant", "role", "permission", "laravel", "acl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Angelo Perez",
+            "email": "itmarkpz@icloud.com"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeHub\\Privilege\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
